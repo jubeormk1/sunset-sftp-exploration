@@ -36,6 +36,10 @@ pretty-hex = "0.4"
 [features]
 rsa = ["sunset/rsa"]
 
+[[example]]
+name = "serv1"
+path = "examples/serv1.rs"
+
 [dev-dependencies]
 anyhow = { version = "1.0" }
 pretty-hex = "0.4"
