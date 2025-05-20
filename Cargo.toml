@@ -65,6 +65,8 @@ rsa = ["dep:rsa", "ssh-key/rsa"]
 openssh-key = ["ssh-key"]
 # implements embedded_io::Error for sunset::Error
 embedded-io = ["dep:embedded-io"]
+# JUBEOR: Proposed feature sftp
+sftp = []
 
 # Allocate larger buffers for things such as usernames.
 # See config.rs for details

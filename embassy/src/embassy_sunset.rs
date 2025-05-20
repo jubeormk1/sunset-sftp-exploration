@@ -292,6 +292,7 @@ impl<'a> EmbassySunset<'a> {
     /// Returns an `Event` once one is ready.
     ///
     /// The returned `Event` borrows from the mutex locked in `ph`.
+    /// JUBEOR: II Following the creating of the channel and type 
     pub(crate) async fn progress<'g, 'f>(&'g self, ph: &'f mut ProgressHolder<'g, 'a>) 
         -> Result<Event<'f, 'a>>
     {
