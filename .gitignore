@@ -3,3 +3,6 @@
 *.swp
 *.sublime-*
 *.pub
+.continue/*
+.vscode/launch.json
+ci_out/*
